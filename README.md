@@ -1,5 +1,5 @@
 # Better-Bus-Master
-Z modern version of the desktop application bus master
+A modern version of the desktop application bus master
 
 What makes it better?
 Modern user interface
