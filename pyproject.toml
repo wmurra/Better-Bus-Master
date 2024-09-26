@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "BetterBusMaster"
+version = "0.0.0"
+description = "A successor to BusMaster"
+authors = ["william.murray <william.matthew.murray@gmail.com>"] 
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.12"
+Flask = "3.0.0"
+Flask-SocketIO = "5.3.6"
+watchfiles = "0.21.0"
+python-socketio = "^5.11.3"
+python-engineio = "^4.9.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+vulture = "2.7"
+pyinstaller = "6.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+app = "main:main"
+compile = "utils.compilation:compile"
+autobuild = "utils.autobuild:main"
