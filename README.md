@@ -1,5 +1,5 @@
 # Better-Bus-Master
-My attempt at designing a modern version of the application bus master
+Z modern version of the desktop application bus master
 
 What makes it better?
 Modern user interface
